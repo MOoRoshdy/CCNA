@@ -1,0 +1,54 @@
+Sep 23 09:47:14.231 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 23 09:47:14.233 HYPERVISOR: Started on IP = localhost, TCP port = 32437.
+Sep 23 09:47:14.488 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 23 09:47:14.488 HYPERVISOR: exec_cmd: hypervisor working_dir E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips 
+Sep 23 09:47:14.501 GENERAL: working_dir=E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips
+Sep 23 09:47:14.501 HYPERVISOR: exec_cmd: hypervisor working_dir E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips\f351f2f2-3f77-4625-a74b-45fac75858d4 
+Sep 23 09:47:14.501 GENERAL: working_dir=E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips\f351f2f2-3f77-4625-a74b-45fac75858d4
+Sep 23 09:47:14.502 HYPERVISOR: exec_cmd: vm create BB 1 c3745 
+Sep 23 09:47:14.503 VM: VM BB created.
+Sep 23 09:47:14.504 HYPERVISOR: exec_cmd: vm set_con_tcp_port BB 5000 
+Sep 23 09:47:14.504 HYPERVISOR: exec_cmd: c3745 get_mac_addr BB 
+Sep 23 09:47:14.505 HYPERVISOR: exec_cmd: vm set_disk0 BB 0 
+Sep 23 09:47:14.505 HYPERVISOR: exec_cmd: vm set_exec_area BB 64 
+Sep 23 09:47:14.505 HYPERVISOR: exec_cmd: vm get_status BB 
+Sep 23 09:47:14.506 HYPERVISOR: exec_cmd: vm set_idle_pc BB 0x6024b540 
+Sep 23 09:47:14.507 HYPERVISOR: exec_cmd: vm set_ios BB C:/Users/ROSHDY/GNS3/images/IOS/c3745-advipservicesk9-mz.124-15.T6.image 
+Sep 23 09:47:14.507 HYPERVISOR: exec_cmd: c3745 set_mac_addr BB c401.0194.0000 
+Sep 23 09:47:14.508 HYPERVISOR: exec_cmd: vm set_nvram BB 256 
+Sep 23 09:47:14.508 HYPERVISOR: exec_cmd: vm set_ram BB 256 
+Sep 23 09:47:14.508 HYPERVISOR: exec_cmd: vm get_status BB 
+Sep 23 09:47:14.508 HYPERVISOR: exec_cmd: vm slot_add_binding BB 1 0 NM-4T 
+Sep 23 09:47:14.509 HYPERVISOR: exec_cmd: vm get_status BB 
+Sep 23 09:47:14.509 HYPERVISOR: exec_cmd: vm slot_add_binding BB 2 0 NM-1FE-TX 
+Sep 23 09:47:16.852 HYPERVISOR: exec_cmd: nio create_udp udp-cf948d9f-42e0-4c54-bace-9cc9b4b9330b 10002 127.0.0.1 10003 
+Sep 23 09:47:17.108 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BB 1 1 udp-cf948d9f-42e0-4c54-bace-9cc9b4b9330b 
+Sep 23 09:47:17.108 HYPERVISOR: exec_cmd: vm get_status BB 
+Sep 23 09:47:17.408 HYPERVISOR: exec_cmd: nio create_udp udp-1077860e-4a23-4bce-8b81-5f2b2afce2e6 10008 127.0.0.1 10009 
+Sep 23 09:47:17.411 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BB 1 0 udp-1077860e-4a23-4bce-8b81-5f2b2afce2e6 
+Sep 23 09:47:17.411 HYPERVISOR: exec_cmd: vm get_status BB 
+Sep 23 09:47:17.848 HYPERVISOR: exec_cmd: nio create_udp udp-20b12551-e437-46ad-b810-c68023b106a2 10022 127.0.0.1 10023 
+Sep 23 09:47:17.850 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BB 0 1 udp-20b12551-e437-46ad-b810-c68023b106a2 
+Sep 23 09:47:17.850 HYPERVISOR: exec_cmd: vm get_status BB 
+Sep 23 09:47:23.291 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Sep 23 09:47:23.293 VM: VM Ghost created.
+Sep 23 09:47:23.294 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/ROSHDY/GNS3/images/IOS/c3745-advipservicesk9-mz.124-15.T6.image 
+Sep 23 09:47:23.294 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Sep 23 09:47:23.294 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips\c3745-advipservicesk9-mz.124-15.T6.image-256.ghost 
+Sep 23 09:47:23.295 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Sep 23 09:47:23.295 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Sep 23 09:47:23.298 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Sep 23 09:47:23.298 HYPERVISOR: exec_cmd: vm start Ghost 
+Sep 23 09:47:23.666 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Sep 23 09:47:23.667 HYPERVISOR: exec_cmd: vm stop Ghost 
+Sep 23 09:47:23.733 VM: VM Ghost shutdown.
+Sep 23 09:47:23.734 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Sep 23 09:47:23.736 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Sep 23 09:47:23.736 VM: VM Ghost destroyed.
+Sep 23 09:47:23.745 HYPERVISOR: exec_cmd: vm set_ghost_status BB 2 
+Sep 23 09:47:23.746 HYPERVISOR: exec_cmd: vm set_ghost_file BB E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips\c3745-advipservicesk9-mz.124-15.T6.image-256.ghost 
+Sep 23 09:47:23.746 HYPERVISOR: exec_cmd: vm get_status BB 
+Sep 23 09:47:23.747 HYPERVISOR: exec_cmd: vm set_config BB configs\i1_startup-config.cfg 
+Sep 23 09:47:23.747 HYPERVISOR: exec_cmd: vm start BB 
+Sep 23 09:47:54.087 HYPERVISOR: exec_cmd: vm extract_config BB 
+Sep 23 09:47:54.101 HYPERVISOR: exec_cmd: vm extract_config BB 

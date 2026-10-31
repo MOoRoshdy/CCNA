@@ -1,0 +1,36 @@
+Sep 23 09:47:14.575 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 23 09:47:14.576 HYPERVISOR: Started on IP = localhost, TCP port = 32440.
+Sep 23 09:47:15.066 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 23 09:47:15.066 HYPERVISOR: exec_cmd: hypervisor working_dir E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips 
+Sep 23 09:47:15.066 GENERAL: working_dir=E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips
+Sep 23 09:47:15.066 HYPERVISOR: exec_cmd: hypervisor working_dir E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips\6b750512-e888-4708-a8e5-30225a25bc21 
+Sep 23 09:47:15.067 GENERAL: working_dir=E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips\6b750512-e888-4708-a8e5-30225a25bc21
+Sep 23 09:47:15.067 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Sep 23 09:47:15.068 VM: VM R2 created.
+Sep 23 09:47:15.069 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Sep 23 09:47:15.069 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Sep 23 09:47:15.069 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Sep 23 09:47:15.070 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Sep 23 09:47:15.070 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 23 09:47:15.070 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x6024b540 
+Sep 23 09:47:15.071 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/ROSHDY/GNS3/images/IOS/c3745-advipservicesk9-mz.124-15.T6.image 
+Sep 23 09:47:15.071 HYPERVISOR: exec_cmd: c3745 set_mac_addr R2 c402.1acc.0000 
+Sep 23 09:47:15.072 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Sep 23 09:47:15.072 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Sep 23 09:47:15.073 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 23 09:47:15.073 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-4T 
+Sep 23 09:47:15.073 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 23 09:47:15.073 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-1FE-TX 
+Sep 23 09:47:17.115 HYPERVISOR: exec_cmd: nio create_udp udp-72183464-ea96-4364-a436-e7dd3a70c9ec 10004 127.0.0.1 10005 
+Sep 23 09:47:17.372 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 1 udp-72183464-ea96-4364-a436-e7dd3a70c9ec 
+Sep 23 09:47:17.373 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 23 09:47:17.710 HYPERVISOR: exec_cmd: nio create_udp udp-40cc451c-a62f-46c1-9a96-30979f75dc81 10014 127.0.0.1 10015 
+Sep 23 09:47:17.712 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-40cc451c-a62f-46c1-9a96-30979f75dc81 
+Sep 23 09:47:17.713 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 23 09:47:23.746 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Sep 23 09:47:23.747 HYPERVISOR: exec_cmd: vm set_ghost_file R2 E:\NTI\CCNP\EIGRP\EIGRP 1\EIGRP 1\project-files\dynamips\c3745-advipservicesk9-mz.124-15.T6.image-256.ghost 
+Sep 23 09:47:23.747 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 23 09:47:23.748 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Sep 23 09:47:23.748 HYPERVISOR: exec_cmd: vm start R2 
+Sep 23 09:47:54.100 HYPERVISOR: exec_cmd: vm extract_config R2 
+Sep 23 09:47:54.109 HYPERVISOR: exec_cmd: vm extract_config R2 
