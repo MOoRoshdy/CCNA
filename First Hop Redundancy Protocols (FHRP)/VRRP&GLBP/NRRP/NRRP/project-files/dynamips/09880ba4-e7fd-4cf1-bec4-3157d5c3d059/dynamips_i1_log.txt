@@ -1,0 +1,34 @@
+Oct 04 16:52:54.207 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 04 16:52:54.208 HYPERVISOR: Started on IP = localhost, TCP port = 14262.
+Oct 04 16:52:54.401 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 04 16:52:54.402 HYPERVISOR: exec_cmd: hypervisor working_dir E:\NTI\CCNP\encore\First Hop Redundancy Protocols (FHRP)\VRRP&GLBP\NRRP\NRRP\project-files\dynamips 
+Oct 04 16:52:54.418 GENERAL: working_dir=E:\NTI\CCNP\encore\First Hop Redundancy Protocols (FHRP)\VRRP&GLBP\NRRP\NRRP\project-files\dynamips
+Oct 04 16:52:54.419 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Oct 04 16:52:57.647 HYPERVISOR: exec_cmd: nio create_udp udp-ee0a9b9c-bc48-4cfc-a9a7-80e3cedabf4a 10001 127.0.0.1 10000 
+Oct 04 16:52:57.647 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-ee0a9b9c-bc48-4cfc-a9a7-80e3cedabf4a 
+Oct 04 16:52:57.651 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-ee0a9b9c-bc48-4cfc-a9a7-80e3cedabf4a 1 
+Oct 04 16:52:57.959 HYPERVISOR: exec_cmd: nio create_udp udp-04b69dac-845b-4234-bacc-55d2d7157786 10005 127.0.0.1 10004 
+Oct 04 16:52:57.960 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-04b69dac-845b-4234-bacc-55d2d7157786 
+Oct 04 16:52:57.965 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-04b69dac-845b-4234-bacc-55d2d7157786 1 
+Oct 04 16:52:58.272 HYPERVISOR: exec_cmd: nio create_udp udp-3ba0ecf6-39b4-4580-8a54-2e0ddd940c72 10009 127.0.0.1 10008 
+Oct 04 16:52:58.272 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-3ba0ecf6-39b4-4580-8a54-2e0ddd940c72 
+Oct 04 16:52:58.277 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-3ba0ecf6-39b4-4580-8a54-2e0ddd940c72 1 
+Oct 04 16:52:58.585 HYPERVISOR: exec_cmd: nio create_udp udp-42bab8d7-5bae-4e87-bcf3-48b24620bcdf 10013 127.0.0.1 10012 
+Oct 04 16:52:58.586 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-42bab8d7-5bae-4e87-bcf3-48b24620bcdf 
+Oct 04 16:52:58.592 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-42bab8d7-5bae-4e87-bcf3-48b24620bcdf 1 
+Oct 04 16:53:07.582 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-ee0a9b9c-bc48-4cfc-a9a7-80e3cedabf4a 1 
+Oct 04 16:53:07.605 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-04b69dac-845b-4234-bacc-55d2d7157786 1 
+Oct 04 16:53:07.738 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-3ba0ecf6-39b4-4580-8a54-2e0ddd940c72 1 
+Oct 04 16:53:07.771 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-42bab8d7-5bae-4e87-bcf3-48b24620bcdf 1 
+Oct 04 17:02:19.876 HYPERVISOR: exec_cmd: nio bind_filter udp-3ba0ecf6-39b4-4580-8a54-2e0ddd940c72 2 capture 
+Oct 04 17:02:19.877 HYPERVISOR: exec_cmd: nio setup_filter udp-3ba0ecf6-39b4-4580-8a54-2e0ddd940c72 2 en10mb E:\NTI\CCNP\encore\First Hop Redundancy Protocols (FHRP)\VRRP&GLBP\NRRP\NRRP\project-files\captures\R1_FastEthernet00_to_Switch1_Ethernet2.pcap 
+Oct 04 17:54:05.603 HYPERVISOR: exec_cmd: nio create_udp udp-9643ba0e-df95-4bbb-aa5c-7f826c5fe51d 10029 127.0.0.1 10028 
+Oct 04 17:54:05.604 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-9643ba0e-df95-4bbb-aa5c-7f826c5fe51d 
+Oct 04 17:54:05.615 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-9643ba0e-df95-4bbb-aa5c-7f826c5fe51d 1 
+Oct 04 17:54:10.120 HYPERVISOR: exec_cmd: nio create_udp udp-ce73a005-76cc-4254-ba26-6e9c1919e25c 10031 127.0.0.1 10030 
+Oct 04 17:54:10.121 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-ce73a005-76cc-4254-ba26-6e9c1919e25c 
+Oct 04 17:54:10.139 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-ce73a005-76cc-4254-ba26-6e9c1919e25c 1 
+Oct 04 18:14:22.473 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Oct 04 18:14:22.634 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 04 18:14:23.038 HYPERVISOR: Stopped.
+Oct 04 18:14:23.040 GENERAL: reset done.
